@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 import "./App.css";
+import Burger from "./BurgerForRescipeSearch.svg";
 
 const App = () => {
   const APP_ID = "2832d27a";
@@ -8,7 +9,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chicken");
+  const [query, setQuery] = useState("chickpea");
 
   useEffect(() => {
     getRecipes();
@@ -36,7 +37,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="header">The recipe finder</h1>
+      <div className="header">
+        <img className="burger" src={Burger} alt="Burger" />
+        <h1 className="title">The recipe finder</h1>
+      </div>
       <form onSubmit={getSearch} className="search-form">
         <input
           className="search-bar"
