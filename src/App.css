@@ -4,12 +4,13 @@
 }
 
 .search-form {
-  min-height: 10vh;
+  /*min-height: 10vh;*/
   display: flex;
   justify-content: center;
   align-items: center;
   width: 500px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .search-bar {
@@ -32,14 +33,14 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /*margin: 20px;*/
+  margin: 20px;
 }
 
 .header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /*margin: 0px;
+  /*margin: 0px;/*
   padding: 10vh 0vh 10vh 0vh;
   font-size: 450%;*/
 }
