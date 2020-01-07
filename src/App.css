@@ -3,6 +3,11 @@
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
+.Home {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
 .search-form {
   /*min-height: 10vh;*/
   display: flex;
@@ -60,4 +65,17 @@
   justify-content: center;
   margin: 10px;
   color: lightcoral;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background: lightcoral;
+  color: white;
+}
+
+.nav-Links {
+  list-style: none;
 }
