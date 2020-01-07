@@ -15,7 +15,8 @@
   align-items: center;
   width: 500px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
 .search-bar {
@@ -78,4 +79,9 @@ nav {
 
 .nav-Links {
   list-style: none;
+}
+
+.line {
+  height: 5hv;
+  background: lightcoral;
 }
